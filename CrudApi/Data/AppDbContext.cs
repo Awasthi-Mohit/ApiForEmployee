@@ -11,6 +11,8 @@ namespace CrudApi.Data
         {
                 
         }
+        public DbSet<Register> Registers { get; set; }
         public DbSet<Employee> Employees { get; set; }
+
     }
 }

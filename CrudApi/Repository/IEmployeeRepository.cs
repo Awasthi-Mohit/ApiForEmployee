@@ -1,11 +1,9 @@
 ﻿using CrudApi.Model;
 
-namespace CrudApi
+namespace CrudApi.Repository
 {
     public interface IEmployeeRepository
     {
-      
-
         Task<List<Employee>> GetAllAsync();
         Task<Employee?> GetByIdAsync(int id);
         Task<Employee> AddAsync(Employee employee);

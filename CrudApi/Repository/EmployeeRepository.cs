@@ -2,7 +2,7 @@
 using CrudApi.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace CrudApi
+namespace CrudApi.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
