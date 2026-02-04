@@ -1,0 +1,11 @@
+@CrudApi_HostAddress = http://localhost:5189
+
+GET {{CrudApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{CrudApi_HostAddress}}/todos/1
+Accept: application/json
+
+###
